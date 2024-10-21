@@ -1,4 +1,4 @@
-1. **Memefactory**
+1. **Memefactory** (0x4319C5a837f21C6c79D5f6fcf3358495E16EaD81) (https://basescan.org/address/0x4319C5a837f21C6c79D5f6fcf3358495E16EaD81#code)
 - This is the main contract that allows for the creation of tokens (memecoins). It should be the first one, as other contracts will likely depend on the tokens created by it.
 
 2. **Whitelist Router**
