@@ -19,7 +19,6 @@
         // Estructura para almacenar la información del NFT
         struct NFTInfo {
             address minter;
-            bytes publicKey; // La clave pública en formato bytes
         }
 
         // Array para almacenar la información de los primeros NFTs
@@ -47,7 +46,7 @@
 
         }
 
-        function mintTo(address _to, bytes memory _publicKey) public payable nonReentrant {
+        function mintTo(address _to) public payable nonReentrant {
             require(block.timestamp >= mintingStartTime, "Minting has not started yet");
             require(msg.value >= feeAmount, "Insufficient fee");
             
@@ -57,8 +56,7 @@
             // Solo almacenar en el array si hay espacio
             if (storedNFTCount < MAX_NFTS) {
                 nftInfoArray[storedNFTCount] = NFTInfo({
-                    minter: msg.sender,
-                    publicKey: _publicKey // Almacenar la clave pública proporcionada
+                    minter: msg.sender
                 });
                 storedNFTCount++;
                 vault.distributeTokens(_to);
