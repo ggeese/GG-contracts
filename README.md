@@ -88,6 +88,17 @@ For each token created:
 - **Address:** [0xD9D78baa151F017857763996EDde44e56830A97e](https://basescan.org/address/0xD9D78baa151F017857763996EDde44e56830A97e#code)  
 - **Description:** Stores reward tokens for NFT minters, receiving instructions from the NFT contract that governs its operations.
 
+
+### Uniswap Pool Factory Contract
+- **Address:** [0x18CFf4C5059f13958eE7AbD7C22930a125E03443](https://basescan.org/address/0x18CFf4C5059f13958eE7AbD7C22930a125E03443#code)  
+- **Description:** This custom contract is responsible for creating new liquidity pools for token pairs, similar to a traditional Uniswap factory. It allows for the deployment of new pool contracts and keeps a registry of all available pools, enabling token swaps and liquidity management within the custom DeFi ecosystem.
+
+
+### Uniswap Router Contract
+- **Address:** [0x567b7404EBdBE3Cf12879C89f785252bfB32b903](https://basescan.org/address/0x567b7404EBdBE3Cf12879C89f785252bfB32b903#code)  
+- **Description:** This contract serves as a custom router, facilitating token swaps, liquidity additions, and removals within the liquidity pools. It simplifies multi-step transactions by providing a unified interface for interacting with the pools, similar to a Uniswap router, but tailored to the specific rules and features of this modified protocol.
+
+
 ---
 
 Goldeng is here to make meme coin creation and trading fun, easy, and secure. Dive into the world of memes with us!
