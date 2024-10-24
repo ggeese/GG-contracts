@@ -54,6 +54,11 @@ For each token created:
 - **Description:** The primary contract for creating memecoins, allowing users to easily deploy new meme-themed tokens.
 
 ---
+### Golden Geese (Memecoin Contract)
+- **Address:** [0xC1D155F6D3eb5ec186C15d21FEbb6024e80F9e74](https://basescan.org/address/0xC1D155F6D3eb5ec186C15d21FEbb6024e80F9e74#code)  
+- **Description:** This contract is the governace meme token from the platform.
+
+---
 
 ### Whitelist Router Contract
 - **Address:** [0x66E2fCcB63ff38F23A39A93B3BaaF3C33ee67661](https://basescan.org/address/0x66E2fCcB63ff38F23A39A93B3BaaF3C33ee67661#code)  
